@@ -1,4 +1,4 @@
-var i=parseInt(prompt("Введите наокпленную сумму от 1 до 15 ")); 
+var i=parseInt(prompt("Введите накопленную сумму от 1 до 15 ")); 
 var pbW=document.getElementById("progressbar").offsetWidth;
 var indW=(pbW/15)*i; 
 if ((i>=0)&&(i<15)) {
